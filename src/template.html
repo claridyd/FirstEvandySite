@@ -1,18 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147157262-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-147157262-2');
+  </script>
+
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   {% block meta %}{% endblock %}
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <!--<link href="assets/img/favicon.png" rel="icon"> -->
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="icon" type="image/png" sizes="180x180" href="assets/img/eFavicon40.png">
+
 
   <!-- Vendor CSS Files -->
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
+<!-- Code from MailChimp to enable pop-up forms and Google remarketing ads -->
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/d07d576ce32e6a1e874c4938a/eaba2edae4f788a9af08a12d0.js");</script>
 
 </head>
 
