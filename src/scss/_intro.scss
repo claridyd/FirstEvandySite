@@ -8,7 +8,7 @@
 
   
   .intro-content {
-    text-align: center;
+    text-align: left;
     position: absolute;
   }
 
@@ -26,7 +26,7 @@
   .intro-title {
     color: #fff;
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 5rem;
 
     @media (min-width: 768px) {
       font-size: 4.5rem;
