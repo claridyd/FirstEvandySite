@@ -681,6 +681,16 @@ a:hover {
   }
 }
 
+.intro .title-4 {
+  font-size: 1.0rem;
+}
+
+@media (min-width: 768px) {
+  .intro .title-4 {
+    font-size: 1.5rem;
+  }
+}
+
 .intro .text-slider-items {
   display: none;
 }
