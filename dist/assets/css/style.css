@@ -658,19 +658,21 @@ a:hover {
 
 .intro .intro-title {
   color: #fff;
-  font-weight: 600;
-  font-size: 7rem;
+  /*    
+    font-weight: 600;
+    font-size: 7rem;
+*/
 }
 
 @media (min-width: 768px) {
   .intro .intro-title {
-    font-size: 4.5rem;
+    font-size: 6rem;
   }
 }
 
 .intro .intro-subtitle {
   font-size: 1.5rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 @media (min-width: 768px) {
@@ -685,21 +687,20 @@ a:hover {
 
 .intro-single {
   height: 350px;
+  /* Not sure why .intro-title listed twice???
+  .intro-title {
+    text-transform: uppercase;
+    font-size: 3rem;
+
+    @media (min-width: 768px) {
+      font-size: 3.5rem;
+    }
+  }
+  */
 }
 
 .intro-single .intro-content {
   margin-top: 30px;
-}
-
-.intro-single .intro-title {
-  text-transform: uppercase;
-  font-size: 3rem;
-}
-
-@media (min-width: 768px) {
-  .intro-single .intro-title {
-    font-size: 3.5rem;
-  }
 }
 
 .intro-single .breadcrumb {

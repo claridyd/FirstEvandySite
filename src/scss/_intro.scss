@@ -25,17 +25,19 @@
 
   .intro-title {
     color: #fff;
+/*    
     font-weight: 600;
     font-size: 7rem;
+*/
 
     @media (min-width: 768px) {
-      font-size: 4.5rem;
+      font-size: 6rem;
     }
   }
 
   .intro-subtitle {
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 400;
 
     @media (min-width: 768px) {
       font-size: 2.5rem;
@@ -54,6 +56,7 @@
     margin-top: 30px;
   }
 
+  /* Not sure why .intro-title listed twice???
   .intro-title {
     text-transform: uppercase;
     font-size: 3rem;
@@ -62,6 +65,7 @@
       font-size: 3.5rem;
     }
   }
+  */
 
   .breadcrumb {
     background-color: transparent;
